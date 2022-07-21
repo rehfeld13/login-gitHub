@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #0d1117;
+  font-family: "Segoe UI", Helvetica;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.header svg {
+  fill: rgba(255, 255, 255, 0.805);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.container h1 {
+  color: rgba(255, 255, 255, 0.805);
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+.container .login {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 210px;
+  background-color: #161b22;
+  border-radius: 5px;
+  position: relative;
+}
+.container .login label {
+  color: rgba(255, 255, 255, 0.805);
+  font-weight: 100;
+  font-size: 14px;
+  margin: 15px 0px 8px 15px;
+}
+.container .login span {
+  color: rgb(0, 174, 255);
+  font-weight: 100;
+  font-size: 13px;
+  position: absolute;
+  top: 91px;
+  right: 10px;
+}
+.container .login span:hover {
+  cursor: pointer;
+  color: rgb(0, 124, 181);
+}
+.container .login input {
+  background-color: #0d1117;
+  width: 90%;
+  padding: 7px;
+  outline: none;
+  border: 1px solid rgb(52, 52, 52);
+  border-radius: 5px;
+  margin: 0 auto;
+  color: white;
+}
+.container .login input:hover {
+  border: 1px solid rgb(0, 174, 255);
+}
+.container .login button {
+  background-color: #238636;
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 9px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.container .login button:hover {
+  cursor: pointer;
+  background-color: #26a53f;
+}
+.container .new_account {
+  display: flex;
+  justify-content: center;
+  padding: 17px;
+  width: 300px;
+  margin-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.21);
+  border-radius: 5px;
+}
+.container .new_account span {
+  color: rgba(255, 255, 255, 0.805);
+  font-weight: 100;
+  font-size: 14px;
+}
+.container .new_account a {
+  color: rgb(0, 174, 255);
+  font-weight: 100;
+  font-size: 14px;
+  text-decoration: none;
+}
+.container .new_account a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.footer ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.footer ul li {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.footer ul li a {
+  color: rgb(0, 174, 255);
+  font-size: 13px;
+  margin-left: 12px;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  text-decoration: underline;
+}
+.footer ul li .contact_gitHub {
+  color: rgba(255, 255, 255, 0.805);
+  font-size: 13px;
+  margin-left: 12px;
+  text-decoration: none;
+}
+.footer ul li .contact_gitHub:hover {
+  color: rgb(0, 174, 255);
+}/*# sourceMappingURL=main.css.map */
